@@ -1,17 +1,20 @@
 import React from "react";
 import "./reset.css";
 import "./style.css";
-import Service from "./components/Service";
+import Header from "./components/Header";
+import LandingSection from "./components/LandingSection";
 import Specialists from "./components/Specialists";
+import Service from "./components/Service";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>OUR COMPANY</h1>
-      </header>
-      <Service />
+      <Header />
+      <LandingSection />
       <Specialists />
+      <Service />
+      <Footer />
     </div>
   );
 }

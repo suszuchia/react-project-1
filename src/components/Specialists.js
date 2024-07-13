@@ -1,5 +1,5 @@
 import React from "react";
-import Employee from "./Employee"; // Correctly import the Employee component
+import Employee from "./Employee";
 
 const specialists = [
   {
@@ -8,7 +8,7 @@ const specialists = [
     position: "IT department",
     description:
       "Experts in Information Technology (IT) are responsible for helping companies manage their technical systems and supporting technology users with troubleshooting assistance.",
-    photo: "./assets/IT-Specialist.jpg",
+    photo: require("../assets/IT-Specialist.jpg"),
   },
   {
     name: "John",
@@ -16,7 +16,7 @@ const specialists = [
     position: "IT department",
     description:
       "Experts in Information Technology (IT) are responsible for helping companies manage their technical systems and supporting technology users with troubleshooting assistance.",
-    photo: "./assets/IT-Specialist.jpg",
+    photo: require("../assets/IT-Specialist.jpg"),
   },
 ];
 

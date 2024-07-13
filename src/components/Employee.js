@@ -2,18 +2,17 @@ import React from "react";
 
 const Employee = ({ name, surname, position, description, photo }) => {
   return (
-    <li className="specialist-list-item">
+    <li className="specialist-item">
       <img
-        className="specialist-image"
         src={photo}
-        alt={`Specialist ${name} ${surname}`}
+        alt={`${name} ${surname}`}
+        className="specialist-photo"
       />
-      <div className="specialist-details">
-        <h3 className="specialist-name">
-          {name} {surname} [ {position} ]
-        </h3>
-        <p className="specialist-description">{description}</p>
-      </div>
+      <h3>
+        {name} {surname}
+      </h3>
+      <p className="specialist-position">{position}</p>
+      <p className="specialist-description">{description}</p>
     </li>
   );
 };

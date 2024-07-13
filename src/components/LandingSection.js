@@ -1,17 +1,18 @@
 import React from "react";
+import "../style.css";
 
 const LandingSection = () => {
   return (
     <section className="landing-section">
       <img
-        src="./assets/landing-image.png"
+        src={require("../assets/landing-image.png").default}
         alt="landing image of our website"
         className="landing-image"
       />
       <div className="landing-content">
         <div className="container landing-flex-container">
           <h2 className="landing-heading">
-            Our company produce highest quality products.
+            Our company produces the highest quality products.
           </h2>
           <p className="landing-description">
             Don't take our word for it - check it out

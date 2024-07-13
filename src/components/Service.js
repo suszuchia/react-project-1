@@ -1,5 +1,5 @@
 import React from "react";
-import Offer from "./Offer"; // Correctly import the Offer component
+import Offer from "./Offer";
 
 const offers = [
   { name: "Service 1", isNew: true },
