@@ -253,9 +253,9 @@ body {
 
 .new-service-dot {
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
+  /* top: 0;
+  left: 0; */
+  transform: translate(-750%, -750%);
 
   width: 22px;
   height: 22px;
