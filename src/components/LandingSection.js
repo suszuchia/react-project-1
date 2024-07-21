@@ -6,7 +6,7 @@ const LandingSection = () => {
     <section className="landing-section">
       <img
         src={require("../assets/landing-image.png")}
-        alt="landing image of our website"
+        alt="Landing image of our website"
         className="landing-image"
       />
       <div className="landing-content">

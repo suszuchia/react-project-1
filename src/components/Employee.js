@@ -3,7 +3,11 @@ import React from "react";
 const Employee = ({ name, position, photo }) => {
   return (
     <li className="specialist-list-item">
-      <img src={photo} alt={`${name}'s photo`} className="specialist-image" />
+      <img
+        src={photo}
+        alt={`${name}'s photo - ${position}`}
+        className="specialist-image"
+      />
       <div className="specialist-details">
         <h3 className="specialist-name">
           {name} [ {position} ]
