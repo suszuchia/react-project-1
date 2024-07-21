@@ -1,18 +1,19 @@
 import React from "react";
 
-const Employee = ({ name, surname, position, description, photo }) => {
+const Employee = ({ name, position, photo }) => {
   return (
-    <li className="specialist-item">
-      <img
-        src={photo}
-        alt={`${name} ${surname}`}
-        className="specialist-photo"
-      />
-      <h3>
-        {name} {surname}
-      </h3>
-      <p className="specialist-position">{position}</p>
-      <p className="specialist-description">{description}</p>
+    <li className="specialist-list-item">
+      <img src={photo} alt={`${name}'s photo`} className="specialist-image" />
+      <div className="specialist-details">
+        <h3 className="specialist-name">
+          {name} [ {position} ]
+        </h3>
+        <p className="specialist-description">
+          Experts in Information Technology (IT) are responsible for helping
+          companies manage their technical systems and supporting technology
+          users with troubleshooting assistance.
+        </p>
+      </div>
     </li>
   );
 };

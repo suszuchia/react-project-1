@@ -39,7 +39,6 @@ body {
   padding: 10px;
   background-color: grey;
   color: white;
-
   -webkit-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
   -moz-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
   box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
@@ -63,7 +62,6 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-
   -webkit-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
   -moz-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
   box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
@@ -95,7 +93,6 @@ body {
 .landing-image {
   width: 100%;
   height: calc(100vh - 50px);
-
   filter: brightness(70%);
   object-fit: cover;
 }
@@ -128,7 +125,7 @@ body {
 .landing-button {
   width: fit-content;
   padding: 10px 40px;
-  font: size 16px;
+  font-size: 16px;
   font-weight: 700;
   background-color: transparent;
   color: white;
@@ -141,6 +138,42 @@ body {
 .landing-button:hover {
   background-color: white;
   color: black;
+}
+
+/* --- OFFER --- */
+.offer-section {
+  text-align: center;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offer-item {
+  padding: 15px;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-color: aliceblue;
+  border: 1px solid darkgray;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
+  box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
+  transition: transform 0.5s;
+}
+
+.offer-item:hover {
+  transform: scale(1.05);
 }
 
 /* --- SPECIALISTS --- */
@@ -222,19 +255,15 @@ body {
   width: 300px;
   height: 300px;
   margin: auto;
-
   background-color: aliceblue;
   border: 1px solid darkgray;
   border-radius: 0px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   -webkit-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
   -moz-box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
   box-shadow: -10px 8px 28px -12px rgba(66, 68, 90, 1);
-
   transition: transform 0.5s;
 }
 
@@ -253,10 +282,7 @@ body {
 
 .new-service-dot {
   position: absolute;
-  /* top: 0;
-  left: 0; */
   transform: translate(-750%, -750%);
-
   width: 22px;
   height: 22px;
   background-color: darkorange;
