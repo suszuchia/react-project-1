@@ -2,10 +2,12 @@ import React from "react";
 import "../style.css";
 
 const LandingSection = () => {
+  const landingImage = "/images/landing-image.png";
+
   return (
     <section className="landing-section">
       <img
-        src={require("../assets/landing-image.png")}
+        src={landingImage}
         alt="Landing image of our website"
         className="landing-image"
       />

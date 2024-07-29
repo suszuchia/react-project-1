@@ -8,7 +8,7 @@ const specialists = [
     position: "IT department",
     description:
       "Experts in Information Technology (IT) are responsible for helping companies manage their technical systems and supporting technology users with troubleshooting assistance.",
-    photo: require("../assets/IT-Specialist.jpg"),
+    photo: "/images/IT-Specialist.jpg",
   },
   {
     name: "John",
@@ -16,7 +16,7 @@ const specialists = [
     position: "IT department",
     description:
       "Experts in Information Technology (IT) are responsible for helping companies manage their technical systems and supporting technology users with troubleshooting assistance.",
-    photo: require("../assets/IT-Specialist.jpg"),
+    photo: "/images/IT-Specialist.jpg",
   },
 ];
 

@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import "../style.css";
 
 const Footer = () => {
   return (
@@ -6,9 +9,8 @@ const Footer = () => {
       <div className="footer-content">
         <p>© 2024 My Project Website. All rights reserved.</p>
         <div className="footer-icons">
-          <i className="footer-icon fab fa-facebook"></i>
-          <i className="footer-icon fab fa-twitter"></i>
-          <i className="footer-icon fab fa-instagram"></i>
+          <FontAwesomeIcon icon={faFacebook} className="footer-icon" />
+          <FontAwesomeIcon icon={faInstagram} className="footer-icon" />
         </div>
       </div>
     </footer>
